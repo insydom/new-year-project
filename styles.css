@@ -1,0 +1,108 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#3E4A37, #CE9F51);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 2px black;
+}
+
+#ny-img {
+    width: 150px;
+    border-radius: 20%;
+    border: 8px solid #CE9F51;
+    margin-bottom: 10px;
+}
+
+#ny-age {
+    background: #CE9F51;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 15px 0;
+    font-size: 26px;
+}
+
+#ny-date {
+    margin: 0;
+    background: #CE9F51;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ny-section {
+    margin-top: 50px;
+}
+
+.ny-title {
+    margin-bottom: 10px;
+}
+
+.ny-hint {
+    margin-top: 0;
+}
+
+#ny-img-cheers {
+    height: 200px;
+}
+
+.ny-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("https://cdn.pixabay.com/photo/2014/12/21/07/49/fireworks-574739__480.jpg");
+    background-size: cover;
+}
+
+#ny-img-happy:hover {
+    background-image: url("images/happy.gif");
+}
+
+#ny-img-hot:hover {
+    background-image: url("images/hot.gif");
+}
+
+#ny-img-coding:hover {
+    background-image: url("https://media.giphy.com/media/umYMU8G2ixG5mJBDo5/giphy.gif");
+}
+
+#ny-img-badass:hover {
+    background-image: url("https://media.giphy.com/media/WsjvRxj8RRxYZgIzzI/giphy.gif");
+}
+
+#ny-img-cheers:hover {
+    background-image: url("images/cheers.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+    font-size: 18px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
